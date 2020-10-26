@@ -1,0 +1,138 @@
+
+body{
+    font-family: "GB18030 Bitmap";
+    background-color: #141415;
+    margin: 0;
+}
+
+.navBar{
+     width: 100%;
+    text-decoration-color: black;
+    color: black;
+    text-align: center;
+    background-color: #E04A54;
+    padding: 0px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    word-spacing: 5px;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+}
+
+h1{
+     font-family: "GB18030 Bitmap";
+    color:aliceblue;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+    
+    margin-top: 30px;
+    padding-top: 30px;
+    padding: 1px;
+    margin: 1px;
+
+}
+
+h2{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 28px;
+    color: #E04A54;
+    
+     
+}
+
+h3{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 22px;
+    color: #E04A54;
+    
+     margin: 1px;
+    padding: 1px;
+}
+
+h4{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+    color: #E04A54;
+    
+     margin: 1px;
+    padding: 1px;
+    text-decoration: underline;
+    text-decoration-color: #E04a54;
+}
+
+.project{
+    max-width: 60%;
+    margin-left: 20%
+    
+}
+
+.projectName{
+    
+}
+
+.projectImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #ffffff;
+    max-width: 40%;
+    height: auto;
+}
+
+.projectDescription{
+    display: block;
+    text-align: center;
+    font-family: "GB18030 Bitmap";
+    font-size: 16px;
+    color: #fff;
+}
+
+.projectLink{
+    display: block;
+    text-align: center;
+    
+    word-spacing: 1px;
+    
+    font-family: "GB18030 Bitmap";
+    font-size: 16px;
+    color: #fff;
+}
+
+.projectAwards{
+    display: block;
+    text-align: center;
+    font-family: "GB18030 Bitmap";
+    font-size: 16px;
+    color: #FFC627;
+}
+
+.projectSkills{
+    
+}
+
+footer{
+    width: 100%;
+    text-decoration-color: black;
+    color: black;
+    text-align: center;
+    background-color: #E04A54;
+    padding: 0px;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    word-spacing: 5px;
+}

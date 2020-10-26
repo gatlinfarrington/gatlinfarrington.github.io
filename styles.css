@@ -1,0 +1,242 @@
+
+
+body{
+    
+    font-family: "GB18030 Bitmap";
+    background-color: #141415;
+    margin: 0;
+
+}
+
+h1{
+    font-family: "GB18030 Bitmap";
+    color:aliceblue;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 200;
+    
+    
+    margin-top: 30px;
+    padding-top: 30px;
+    padding: 1px;
+    margin: 1px;
+    
+}
+
+h2{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 28px;
+    color: #E04A54;
+    
+     
+}
+
+h3{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 22px;
+    color: #E04A54;
+    
+     margin: 1px;
+    padding: 1px;
+}
+
+h4{
+    font-family: "GB18030 Bitmap";
+    font-weight: 200;
+    text-align: center;
+    font-size: 20px;
+    color: #E04A54;
+    
+     margin: 1px;
+    padding: 1px;
+    text-decoration: underline;
+    text-decoration-color: #E04a54;
+}
+
+
+
+img{
+    align-items: center;
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+p{
+    width:auto;
+    font-family: "GB18030 Bitmap";
+    font-weight: 100;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+.navBar{
+   
+    width: 100%;
+    text-decoration-color: black;
+    color: black;
+    text-align: center;
+    background-color: #E04A54;
+    padding: 0px;
+    text-decoration: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    word-spacing: 5px;
+}
+
+a{
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+ul{
+    color: #ffffff;
+    text-align: center;
+}
+
+
+div{
+    align-content: center;
+}
+
+.grid-container {
+    background-color: #141415;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 5px;
+  margin:3px;
+   
+}
+
+.grid-container > div{
+    display:grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+    
+}
+
+.item1 
+    grid-row-start: 1;
+ border: 3px solid #fff;
+}
+
+.item2 {
+    
+    padding: 5px;
+    grid-column-start: 1;
+     grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:3; 
+   
+}
+
+.item3 {
+    grid-row-start: 2; 
+    
+}
+
+.column {
+    
+    float:left;
+  width: 28%;
+  padding: 10px;
+    margin: 35px;
+  border: 3px solid #fff;
+}
+
+.row::after {
+  content: "";
+  clear:both;
+  display: table;
+
+}
+
+.projectImage{
+    position:relative;
+    max-width: 100%
+        
+    
+    
+}
+
+.projectName{
+    font-family: "GB18030 Bitmap";
+    font-weight: 100;
+    color: #E04A54;
+    font-size: 20px;
+    margin:3px;
+    padding: 3px;
+}
+
+.projectDescription{
+    font-family: "GB18030 Bitmap";
+    font-weight: 100;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+iframe{
+    
+}
+
+div{
+    width: inherit;
+}
+
+.contact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    text-decoration-color: black;
+    color: black;
+    text-align: center;
+    background-color: #E04A54;
+    padding: 0px;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-bottom: 1px;
+    word-spacing: 5px;
+}
+
+.typewriter p{
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #E04A54; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 5s steps(80, end),
+    blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0% }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent}
+  50% { border-color: #E04A54; }
+}
+
