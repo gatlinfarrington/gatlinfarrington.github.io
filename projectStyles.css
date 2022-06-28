@@ -5,6 +5,20 @@ body{
     margin: 0;
 }
 
+.under{
+    position: sticky;
+    top: 0;
+
+}
+
+.wrapper { height: 200 vh;}
+
+.over {
+margin-top: -100vh;
+position: relative;
+
+}
+
 .navBar{
      width: 100%;
     text-decoration-color: black;

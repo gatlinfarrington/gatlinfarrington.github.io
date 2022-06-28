@@ -4,6 +4,14 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>
+        <style>
+            .fill img{
+                flex-shrink: 0;
+                min-width: 100%;
+                min-height: 100%;
+                size: 200%;
+            }
+        </style>
     </head>
     
     
@@ -11,8 +19,8 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1">
     
     <body>
-    <!--CONTENT-->
         
+    <!--CONTENT-->
         <nav class="navBar">
           <a href="home.html">Home</a>
           <a href="https://github.com/gatlinfarrington">Github</a>
@@ -20,20 +28,33 @@
           <a href="contactMe.html">Contact</a>
           <a href="#documets">Resume</a>
         </nav>
- 
-          <h1>Gatlin Farrington</h1>
-            <img src="me.png">
-            <h2>
-                About Me
-            </h2>
-        <div>
-            <p>Hi I'm Gatlin! I am a Junior at <span style="color: #FFC627">Arizona State University.</span> </p>
-        </div>
+        <table>
+            <tr>
+                <td>
+                    <h1>Gatlin Farrington</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="fill"><img src="me.png"></div>
+                    
+                </td>
+                <td>
+                    <h2>
+                        About Me
+                    </h2>
+                    <div>
+                        <p>Hi I'm Gatlin! I am a Senior at <span style="color: #FFC627">Arizona State University.</span> </p>
+                    </div>
+                    <p>
+                        I am studying Computer Science with an emphasis in Cyber Security. Since Elementary school I've known that I wanted to go into a Computer Science field after joining an after school robotics program. From then on I made it my mission to never stop learning about programming and other STEM related activities. Recently I have been working in VB.NET but I also do work in: Java, C++, C#, Python, and some web design in HTML/CSS
+                    </p>
+                </td>
+            </tr>
+        </table>
+         
+           
         
-
-         <p>
-              I am studying Computer Science with an emphasis in Cyber Security. Since Elementary school I've known that I wanted to go into a Computer Science field after joining an after school robotics program. From then on I made it my mission to never stop learning about programming and other STEM related activities. Java is the language I know best but I dabble in many others. I am familiar with: Python, HTML/CSS, C, C#, and Swift.
-        </p>
             
         
             <h3>
@@ -49,7 +70,7 @@
                 <a href="projects.html">
                     <img src="bow.png" alt="Bond" class="projectImage">
                 </a>
-                <p><span class="projectName">Tri-Mar Bow Machine (Conceptual Design)</span></p>
+                <p><span class="projectName">Tri-Mar Bow Machine(Conceptual Design)</span></p>
                 <!--<p class="projectDescription">While working as an undergraduate intern at Scottsdale Unified School District Building Services I worked on many things. I helped manage different projects going on and this presentation is a culmination of all of those projects.</p>-->
             </div>
             <div class="grid-item" class="item2">
@@ -64,7 +85,7 @@
                     
                     <p>•Third Place 🥉</p>    
                     <p>•Best UI/UX</p>-->
-                        </span>
+                        </span> 
             </div>
 
             <div class="grid-item" lass="item3">
