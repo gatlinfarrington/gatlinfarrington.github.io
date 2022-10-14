@@ -13,6 +13,13 @@ html{
     font-family:sans-serif;
 }
 
+.contact-container{
+  border-radius: 15px;
+  background: linear-gradient(225deg, #ffffff, #e6e6e6);
+  box-shadow:  -37px 37px 74px #666666,
+                37px -37px 74px #ffffff;
+}
+
 .Welcome-Title{
     display: flex;
     align-items: center;
